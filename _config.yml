@@ -163,7 +163,7 @@ sidebar:
 # Sidebar Avatar
 avatar:
   # Replace the default image and set the url here.
-  url: https://cdn.jsdelivr.net/gh/zhou-ning/blog-image-bed@main/avatar/zhouning.jpg
+  url: https://cdn.jsdelivr.net/gh/zhou-ning/blog-image-bed@main/avatar/zhouning.png
   # If true, the avatar will be dispalyed in circle.
   rounded: true
   # If true, the avatar will be rotated with the cursor.
@@ -253,6 +253,9 @@ symbols_count_time:
   separated_meta: true
   item_text_post: true
   item_text_total: false
+  awl: 2                   # Average Word Length
+  wpm: 275                 # Words Per Minute（每分钟阅读词数）
+  suffix: mins.
 
 # Use icon instead of the symbol # to indicate the tag at the bottom of the post
 tag_icon: true
@@ -636,8 +639,8 @@ gitalk:
   enable: true
   github_id: zhou-ning
   repo: zhou-ning.github.io
-  client_id: ************
-  client_secret: ***************
+  client_id: 123
+  client_secret: 123
   admin_user: zhou-ning
   distraction_free_mode: true # Facebook-like distraction free mode
   # Gitalk's display language depends on user's browser or system environment
@@ -711,7 +714,7 @@ firestore:
 # Show Views / Visitors of the website / page with busuanzi.
 # Get more information on http://ibruce.info/2015/04/04/busuanzi
 busuanzi_count:
-  enable: false
+  enable: true
   total_visitors: true
   total_visitors_icon: fa fa-user
   total_views: true
